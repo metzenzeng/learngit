@@ -16,3 +16,5 @@ except urllib2.URLError,e:
         print e.code
     if hasattr(e,"reason"):
         print e.reason
+
+# just for a simple test
